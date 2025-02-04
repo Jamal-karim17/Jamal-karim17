@@ -5,10 +5,9 @@
 
 Here are some ideas to get you started:
 
-- 🔭 I’m currently working on Frontend
-- 🌱 I’m currently learning frontend and backend
-- 👯 I’m looking to collaborate on ...
+- 🔭 I’m currently working on Automating tasks and solving problems efficiently
+- 🌱 I’m currently learning Writing Python scripts for automation and data processing
+- 👯 I’m looking to collaborate on Crafting user-friendly and responsive websites
 - 📫 How to reach me:njogujustin@gmail.com
-- 😄 Pronouns: ...
 - ⚡ Fun fact: I am a lover of data analysis
 -->
