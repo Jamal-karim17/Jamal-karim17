@@ -1,0 +1,65 @@
+<app-navbar></app-navbar>
+<div class="container-fluid d-flex justify-content-center align-items-center vh-50"  style="background-color: beige; background-size: cover;">
+<table class="table">
+  <thead>
+    <tr>
+      <th scope="col">NO</th>
+      <th scope="col">TASK NAME</th>
+      <th scope="col">DESCRIPTION</th>
+      <th scope="col">START DATE</th>
+      <th scope="col">TASK STATUS</th>
+      <th scope="col">PROJECT PHASE</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">1</th>
+      <td>Marketing Campaign</td>
+      <td>Launch a new digital marketing campaign	</td>
+      <td>06/02/2024</td>
+      <td>Incomplete</td>
+      <td><button type="button" class="btn btn-primary">view</button>
+      </td>
+    </tr>
+    <tr>
+        <th scope="row">2</th>
+        <td>Product Launch	</td>
+        <td>Prepare for the launch of new product	</td>
+        <td>07/02/2024</td>
+        <td>Pending</td>
+        <td><button type="button" class="btn btn-primary">view</button>
+        </td>
+      </tr>
+    <tr>
+      <th scope="row">3</th>
+      <td>Employee Training	</td>
+      <td>Develop and deliver a training program</td>
+      <td>08/02/2024</td>
+      <td>Complete</td>
+      <td><button type="button" class="btn btn-primary">view</button>
+      </td>
+    </tr>
+  </tbody>
+</table>
+</div>
+<div class="modal" tabindex="-1">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">Modal title</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <p>Task Title</p>
+          <p>Description</p>
+          <p>DueDate</p>
+          <p>Task Status</p>
+          <p>Progress phase</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Save changes</button>
+        </div>
+      </div>
+    </div>
+  </div>
